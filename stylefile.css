@@ -17,6 +17,16 @@ body {
     font-family: Bahnschrift; 
     text-align: left;
   }
+  dt{
+    color: rgb(112, 29, 29);
+    font-family: Bahnschrift; 
+    text-align: left;
+  }
+  li{
+    color: rgb(112, 29, 29);
+    font-family: Bahnschrift; 
+    text-align: left;
+  }
   p{
     font-family: Bahnschrift Light;
   }
