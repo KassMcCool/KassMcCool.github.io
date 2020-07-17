@@ -27,6 +27,11 @@ body {
     font-family: Bahnschrift; 
     text-align: left;
   }
+  a{
+    color: rgb(206, 108, 108);
+    font-family: Bahnschrift; 
+    text-align: left;
+  }
   p{
     font-family: Bahnschrift Light;
   }
