@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html> 
-  <!--this is kind of like the landing page for the site-->
-<head><b>DIY Brew Guy</b>
-<title><em>A place to collect all the skills an resources needed to make some top-notch brews.</em></title>
-</head>
+  <style>
+.brown-text {
+  color: rgb(112, 29, 29);
+   font-family: Bahnschrift; 
+}
+h2 {
+  color: rgb(167, 44, 44);
+  font-size: Large;
+  font-family: Bahnschrift; 
+}
+p{
+  font-family: Bahnschrift Light;
+}
+form{
+  font-family: Bahnschrift;
+}
+  </style>
+  <h1>
+    <b class="brown-text">DIY Brew Guy</b><br><br>
+  </h1>
+    <h2>A place to collect all the skills an resources needed to make some top-notch brews.</title>
+    </h2>
 <img src="brew.jpg" alt="picture of beer" width="600" height="400">
 <body>
-  <!--I really like the idea of a form to sign up for notifications so included one-->
     <p> Welcome to DIY Brew Guy! Be sure to check out our <a>monthly brew schedule</a> and sign up for email notification when new brew day videos are posted by filling out the contact form below!</p>
-    <form action="/action_page.php" method="get"> 
+    <form> 
     <label for="fname">First Name:</label>
     <input type="text" id="fname" name="fname"><br><br>
-    <label for="lname">Last name:</label>
+    <label for="lname">Last Name:</label>
     <input type="text" id="lname" name="lname"><br><br>
-    <label for="email">email address:</label>
+    <label for="email">Email address:</label>
     <input type="text" id="email" name="email"><br><br>
     <input type="submit" value="Submit">
 </form>

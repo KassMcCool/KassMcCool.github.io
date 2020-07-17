@@ -1,0 +1,23 @@
+/* myStyle.css */
+body {
+    background-color: slategray;
+}
+.brown-text {
+    color: rgb(112, 29, 29);
+     font-family: Bahnschrift; 
+  }
+  h1 {
+    color: rgb(167, 44, 44);
+    font-size: Large;
+    font-family: Bahnschrift; 
+    text-align: center;
+  }
+  ul{
+    color: rgb(112, 29, 29);
+    font-family: Bahnschrift; 
+    text-align: left;
+  }
+  p{
+    font-family: Bahnschrift Light;
+  }
+

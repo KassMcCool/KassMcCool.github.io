@@ -2,7 +2,6 @@
 <html>
 <head>
 <style>
-  <!-- this styling removes all the default style for list tags and applies nav bar style, colors and position-->
 ul {
   list-style-type: none;
   margin: 0;
@@ -12,17 +11,29 @@ ul {
 
 li {
   float: left; 
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
 }
+
 li a {
   display: block;
   padding: 8px;
   background-color: #8a9ace;
   color: black
 }
+.brown-text {
+      color: rgb(112, 29, 29);
+       font-family: Bahnschrift; 
+    }
+    h2 {
+      color: rgb(167, 44, 44);
+      font-size: Large;
+      font-family: Bahnschrift; 
+    }
+    p{
+      font-family: Bahnschrift Light;
+    }
+    form{
+      font-family: Bahnschrift;
+    }
 </style>
 </head>
 <body>
@@ -31,9 +42,29 @@ li a {
     <li><a href=attributes.html>attribute examples</a></li>
     <li><a href=tags.html>tag examples</a></li>
     </ul>
-    <br>
-    <br>
-    <h2>Hello World!!!!!</h2>
+      <h1>
+        <b class="brown-text">DIY Brew Guy</b><br><br>
+      </h1>
+        <h2>A place to collect all the skills an resources needed to make some top-notch brews.</title>
+        </h2>
+    <img src="brew.jpg" alt="picture of beer" width="600" height="400">
+    <body>
+        <p> Welcome to DIY Brew Guy! Be sure to check out our <a>monthly brew schedule</a> and sign up for email notification when new brew day videos are posted by filling out the contact form below!</p>
+        <form> 
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email Address:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    </body>
+    <footer>
+        <p>Site Author: Kassie McCool</p>
+        <p><a href="mailto:test@example.com">hege@example.com</a></p>
+      </footer>
+    </html>
 </body>
 </html>
     

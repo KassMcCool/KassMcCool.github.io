@@ -1,46 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-US"> 
 <head>
-    <style> 
-    <!-- added shading, font color and sizing to form field boxes-->
-        input[type=text] {
-          width: 25%;
-          padding: 12px 20px;
-          margin: 8px 0;
-          box-sizing: border-box;
-          border: none;
-          background-color: #9cbed4;
-          color: black;
-        }
-        title {
-            font-size: large;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-        </style>
-    <title>DIY Brew Guy</title><br>
-<p><em>A place to collect all the skills an resources needed to make some top-notch brews.</em></p>
-</head>
-<!--god help me, I don't know how to insert a picture-->
-<img src="brew.jpg" alt="picture of beer" width="600" height="400">
-<body>
-    <p style="color:rgb(68, 34, 34);"></p> Welcome to DIY Brew Guy! Be sure to check out our <a>monthly brew schedule</a> and sign up for email notification when new brew day videos are posted by filling out the contact form below!</p>
-    <form action="/action_page.php" method="get"> 
-        <!--Added hover over help text and requirements to form fields-->
-    <label title="Enter your first name" for="fname">First Name:</label>
-    <input title="Enter your first name" type="text" id="fname" name="fname" required><br><br>
-    <label title="Enter your last name" for="lname">Last name:</label>
-    <input title="Enter your last name"  type="text" id="lname" name="lname" required><br><br>
-    <label title="Enter your email address" for="email">email address:</label>
-    <input title="Enter your email address" type="text" id="email" name="email" required><br><br>
-    <input type="submit" value="Submit">
-</form>
-</body>
-<footer>
-    <p>Site Author: Kassie McCool</p>
-    <p><a href="mailto:test@example.com">hege@example.com</a></p>
-  </footer>
+    <title>externalStyle.html</title>
+    <link rel = "stylesheet"
+      type = "text/css"
+      href = "stylefile.css" />
+    </head>
+    <h1>Left Hand Navigation</h1>
 <fieldset>
-    <!--liked the look of the legend list with the border so added that to my lists and gave details in the first list-->
     <legend>Things to do:</legend>
     <dl>
 <ul><dt><a href=Schedule.html>Monthly Brew Schedule</a></dt>
@@ -55,7 +22,7 @@
 
 <fieldset>
 <legend>Things to buy:</legend>
-<ul><li><a href=Subscription.html>Brew Packages</a></li></ul>
+<ul><li><a href=Subscription.html>Brew Subscriptions</a></li></ul>
 <ul><li><a href=ingredients.html>Brew Ingredients</a></li></ul>
 <ul><li><a href=hardwear.html>Hardwear</a></li></ul>
 <ul><li><a href=gear.html>Gear</a></li></ul>
