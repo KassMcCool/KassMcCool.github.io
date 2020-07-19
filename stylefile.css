@@ -17,6 +17,12 @@ body {
     font-family: Bahnschrift; 
     text-align: left;
   }
+  ul.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
   dt{
     color: rgb(112, 29, 29);
     font-family: Bahnschrift; 
@@ -27,8 +33,11 @@ body {
     font-family: Bahnschrift; 
     text-align: left;
   }
+  li.a {
+    float: left; 
+  }
   a{
-    color: rgb(206, 108, 108);
+    color: rgb(117, 62, 62);
     font-family: Bahnschrift; 
     text-align: left;
   }
