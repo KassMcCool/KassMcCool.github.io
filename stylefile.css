@@ -12,6 +12,11 @@ body {
     font-family: Bahnschrift; 
     text-align: center;
   }
+  #legend1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.74);
+  }
   ul{
     color: rgb(112, 29, 29);
     font-family: Bahnschrift; 
