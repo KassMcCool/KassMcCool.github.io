@@ -17,12 +17,6 @@ body {
     font-family: Bahnschrift; 
     text-align: left;
   }
-  ul.a {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
   dt{
     color: rgb(112, 29, 29);
     font-family: Bahnschrift; 
@@ -33,9 +27,6 @@ body {
     font-family: Bahnschrift; 
     text-align: left;
   }
-  li.a {
-    float: left; 
-  }
   a{
     color: rgb(117, 62, 62);
     font-family: Bahnschrift; 
@@ -44,10 +35,20 @@ body {
   p{
     font-family: Bahnschrift Light;
   }
-}
-li a {
- display: block;
-padding: 8px;
-background-color: #8a9ace;
-color: black;
-}
+  ul.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left; 
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #8a9ace;
+    color: black;
+  }

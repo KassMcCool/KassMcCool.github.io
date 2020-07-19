@@ -9,20 +9,23 @@
         Color: rgb(92, 1, 92);
     }
         
-    ul {
-         list-style-type: none;
-         margin: 0;
-         padding: 0;
-        overflow: hidden;
+    ul.a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
-li.a {
+
+li {
   float: left; 
 }
-    li a {
-      display: block;
-     padding: 8px;
-     background-color: #8a9ace;
-     color: black
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #8a9ace;
+  color: black;
+}
 }
     
 </style>
@@ -35,7 +38,8 @@ li.a {
     Events will be planned at least 3 months in advance and are subject to change depending on availability of brew ingrediants and/or unforseen circumstances. 
 </p>
 <footer>
-    <ul><li><a href=index.html>Home</a></li>
+    <ul class=a>
+    <li><a href=index.html>Home</a></li>
     <li><a href=nested.html>Nested examples</a></li>
     <li><a href=attributes.html>Style reference file examples</a></li>
     <li><a href=tags.html>Tag examples</a></li>
