@@ -44,6 +44,21 @@ dl {
   padding: 0;
   overflow: hidden;
 }
+.object {
+  animation: MoveUpDown 1s linear infinite;
+  position: absolute;
+  left: 800;
+  bottom: 400;
+}
+
+@keyframes MoveUpDown {
+  50%, 100% {
+    bottom: 800;
+  }
+  50% {
+    bottom: 800px;
+  }
+}
 </style>
 <header>
 
@@ -77,3 +92,6 @@ dl {
 <dl class="small"><li>Grwolers</li></dl>
 <dl class="small"><li>Replacement Parts</li></dl>
 
+<div class="object">
+    TAKE MY MONEY!
+  </div>
