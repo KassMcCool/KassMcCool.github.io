@@ -6,7 +6,7 @@ function change()
     else elem.value = "Please take a moment to click this button";
 }
 
-   $('.btn-click').click(function() 
+$('.btn-click').click(function() 
    {
     $("body").css("background","#AFD629");
 }
