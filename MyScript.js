@@ -6,12 +6,12 @@ function change()
     else elem.value = "Please take a moment to click this button";
 }
 
-$('.btn-click').click(function() 
+$('.button-click').click(function() 
    {
     $("body").css("background","#AFD629");
-}
+})
 
-$('.btn-toggle').click(function() 
+$('.button-toggle').click(function() 
 {
     $("body").toggleClass("second-color");
 })

@@ -1,3 +1,16 @@
 /* JSCSS.css */
-button{background:rgba(104, 16, 16, 0.3);border-radius:10px;border:1px solid #FFF;padding:10px;color:#ffffff;cursor:pointer;font-weight:bold;margin:25px;box-shadow:2px 2px 2px rgba(0,0,0,0.3);text-shadow:1px 1px 1px rgba(0,0,0,0.3)}
-.second-color{background:#9bc417 !important;}
+button
+{
+    background:rgba(104, 16, 16, 0.3);
+    border-radius:10px;
+    border:1px solid #FFF;
+    padding:10px;
+    color:#ffffff;
+    cursor:pointer;
+    font-weight:bold;
+    margin:25px;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.3);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.3)
+}
+.second-color
+{background:#9bc417 !important;}
