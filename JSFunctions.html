@@ -2,38 +2,19 @@
 <html>
 <head>
 <title>Functional JS Page</title>
-<link rel="stylesheet" href="JSCSS.css" />
 </head>
-<body id="body">
-<h1>Let's play with JavaScript</h1>
+<body>
+<h1 id="our-headline">Let's play with JavaScript</h1>
+<h2>click an item to edit this text.</h2>
+<button id="our-button">Add a new list item</button>
+<ul id="our-list">
+    <li>first item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+    <li>fourth item</li>
+    <li>fifth item</li>
+</ul>
 
-<p>Buttons are meant to be pushed!</p>
-
-<form>
-    <input type="button" value="click here" onclick="display()"/>
-    <script>"display.js"</script>
-<br>
-<br>
-<div>
-    <label> Background</label>
-    <select name="background" id="Background"
-    onchange="changeBackground(this)">
-        <option value="red">Red</option>
-        <option value="blue">blue</option>
-        <option value="green">green</option>
-    </select>
-    </div>
-    <br />
-    <input type="submit" value="Submit" />
-</form>
-    <script>   
-        function changeBackground(x) {
-                console.log(x.value);
-                var body = document.getElementById('body');
-                body.style.backgroundColor = blue;
-            }
-        </script>
-        
-
+<script src="display.js"></script>
 </body>
 </html>
