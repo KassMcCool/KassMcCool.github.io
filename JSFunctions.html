@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel = "JSCSS.css "
-type = "text/css"
-href = "JSCSS.css" />
-<script src="MyScript.js"></script>
 <title>Functional JS Page</title>
-
+<link rel="stylesheet" href="JSCSS.css" />
 </head>
-<body>
-<h1>This is my heading</h1>
+<body id="body">
+<h1>Let's play with JavaScript</h1>
 
-<p>This is a paragraph</p>
+<p>Buttons are meant to be pushed!</p>
 
-<input onclick="change()" type="button" value="Please take a moment to click this button" id="button1"></input>
-
-<!-- this only changes the color once.-->
-<button class="button-click" type="button" value="Then click this button" id="button2"></button>
-<!-- this will toggle the color back and forth-->
-<button class="button-toggle" type="button" value="Then click this button" id="button3"></button>
-
+<form>
+    <input type="button" value="click here" onclick="display()"/>
+    <script>"MyScript.js"</script>
+<br>
+<br>
+<div>
+    <label> Background</label>
+    <select name="background" id="Background"
+    onchange="changeBackground(this)">
+        <option value="red">Red</option>
+        <option value="blue">blue</option>
+        <option value="green">green</option>
+    </select>
+    </div>
+    <br />
+    <input type="submit" value="Submit" />
+</form>
+    <script>   
+        function changeBackground(x) {
+                console.log(x.value);
+                var body = document.getElementById('body');
+                body.style.backgroundColor = blue;
+            }
+        </script>
+        
 
 </body>
 </html>
