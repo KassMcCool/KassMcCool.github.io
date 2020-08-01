@@ -1,5 +1,6 @@
 /* FinalStyle.css */
-$bannerBG: 'https://picsum.photos/1200/600';
+#bannerImage {
+}
 
 * { 
   margin: 0;
@@ -26,7 +27,7 @@ body { font-family: sans-serif; }
   .row { flex-direction: row-reverse; }
   
   .bannerImage {
-    background: url($bannerBG);
+    background: #bannerImage;
     background-size:cover;
     background-position: center center;
     background-color: #037272;
