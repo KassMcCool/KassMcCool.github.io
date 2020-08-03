@@ -1,77 +1,69 @@
-/* FinalStyle.css */
-#bannerImage {
+body {
+    top:0;
+    bottom:0;
+    left:0;
+    background-color:#f8f7f0;
 }
-
-* { 
-  margin: 0;
-  box-sizing: border-box;
-}
-body { font-family: sans-serif; }
-
-// Utilites from CMS
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-.col-6 {
-    flex: 0 0 50%;
-    // max-width: 50%;
-}
-.h-100 { height: 100% !important; }
-.p-5 { padding: 3rem !important; }
-
-
-#section01 {
-  overflow: hidden; 
-  
-  .row { flex-direction: row-reverse; }
-  
-  .bannerImage {
-    background: #bannerImage;
-    background-size:cover;
-    background-position: center center;
-    background-color: #037272;
+ul {
+    list-style-type: none;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20;
+    overflow: hidden;
   }
-  
-  .bannerText {
+  li {
+      float: left; 
+  }
+  li a {
+    display: block;
+    text-align: center;
+    width: 150px;
     background-color: #037272;
-    position: relative;
-    z-index: 1;
-    
-    .oval {
-      position: absolute;
-      background-color: #037272;
-      top: -50%;
-      right: 0;
-      border-radius: 100%;
-      z-index: -1;
-      content: '';
+    color: #f8f7f0;
+    text-decoration:none; 
+  }
+  a:hover {
+    background-color: #00848c; 
+  }
+  .blue-text {
+        color: #1c1f4c;
+         font-family: Bahnschrift; 
+      }
+      h1{
+          color: #1c1f4c;
+          font-family: sans-serif;
+      }
+      .inner {
+        width: 800px;
+        border: 10px solid black;
+      }
+      .aboutPic {
+        position: left !important;
+        width: 400px !important;
+        border: 10px solid black;
+      }
+      img{
+        display:block;
+        margin:0 auto;
+        width:150px;
+      }
+      .text {
+        width: 1000px;
+      }
+      p{
+        color: #00848c;
+        font-family: Bahnschrift Light;
+        font-size: medium;
+        margin:0 auto;
+        width: 1000px;
+        align-content: left;
+      }
+      form{
+        font-family: Bahnschrift;
+      }
+      Footer {
+         height: 20px;
+         background: #fec20f; 
+         color: white;  
+         text-align: right;
     }
-  }
-}
-
-@media screen and (max-width:991px){
-  #section01 {
-    .row { display: block; }
-    .bannerText { padding: 0 0 3em !important; }
-    .bannerText > .p-5 { padding: 1rem 2rem !important; }
-  }
-}
-/* #section01 {
-height: ${bannerHeight}px;
-}*/
-h1,
-h3 {
-  margin-bottom: 24px;
-  color:#fff; 
-}
-p{ 
-  color:#d8d8d8;
-}
-h1 {
-  font-size: 48px;
-}
-h3,
-p {
-  font-size: 18px;
-}
