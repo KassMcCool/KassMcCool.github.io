@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="custom.css"/>
+</head>
+<body>
+
+<div class="jumbotron text-center" class="bg-info" !important>
+  <h1>Kassie's Bootstrap Page</h1>
+  <p>Resize the page to see the effect!</p> 
+</div>  
+<div class="container">
+<div class="row">
+    <div class="col-md-12">
+        <div col-sm-4>
+            <ol class="breadcrumb">
+                <li><a href="finalhome.html">Final Home</a></li>
+                <li><a href="Bootstrap.html">Bootstrap</a></li>    
+              </ol>
+        </div>
+  </div>
+  </div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Quotes I enjoyed while working on this page:</h3>
+      <blockquote>
+      <p>For every job that must be done, there is an element of fun.</p>
+      <footer>P. L. Travers <br>Author of Mary Poppins</footer>
+    </blockquote>
+    <blockquote>
+        <p>Opportunities are usually disguised as hard work, so most people don't recognize them.</p>
+        <footer>Ann Landers</footer>
+      </blockquote>
+    </div>
+    <div class="col-sm-4">
+      <h3>Click Me</h3>        
+      <div class="container">
+        <p>Click the dropdown menu to select where you want to go!</p>                                        
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Menu
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="finalhome.html">Home Final</a></li>
+            <li><a href="AboutMe.html">About Me</a></li>
+            <li><a href="team.html">The Team</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+     <!-- Button trigger modal -->
+<button type="button" class="btn-success" data-toggle="modal" data-target="#exampleModal">
+    Click to see somthing pretty!
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-width">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"><kbd>I really need a vacation...</kbd></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <img src="Ireland.jpg" class="img-rounded" class="col-xs-1" allign="center" alt="Ireland Cliffs">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">I also need a vacation.</button>
+          <button type="button" class="btn btn-primary">You don't need a vaction,<br>and this button doesn't work to spite you.</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button data-toggle="collapse" data-target="#demo">Click me for a question</button>
+
+<div id="demo" class="collapse">
+If you selected that you do not need a vacation in the Modal pop-up, please share why you feel you don't need one. I need some advice on socially acceptable self sanity maintainance activities during a pandemic.
+<br>
+<div class="form-group">
+    <label for="exampleFormControlTextarea1">Please give me some advice in the field below:</label>
+    <textarea class="form-field" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <button type="button" class="btn btn-secondary">Submit Advice</button>
+</div>
+</div>
+</div>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div col-sm-4>
+                <ol class="breadcrumb">
+                    <p>
+                        <a href="mailto:kasandramccool@u.boisestate.edu"><span class="glyphicon glyphicon-envelope"></span></a>
+                        Email Kassie</p> 
+                  </ol>
+            </div>
+      </div>
+      </div>
+  </div>
+</div>
+</body>
+</html>
