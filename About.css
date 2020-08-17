@@ -1,13 +1,13 @@
+/* About.css */
 body {
     top:0;
     bottom:0;
     left:0;
     background-color:#f8f7f0;
 }
-ul.a {
+ul {
     list-style-type: none;
     width: 1200px;
-    background-color: #037272;
     margin: 0 auto;
     padding: 20;
     overflow: hidden;
@@ -19,15 +19,12 @@ ul.a {
     display: block;
     text-align: center;
     width: 150px;
+    background-color: #037272;
     color: #f8f7f0;
     text-decoration:none; 
   }
   a:hover {
     background-color: #00848c; 
-  }
-  .dropdown{
-    position: relative;
-    display: inline-block;
   }
   .blue-text {
         color: #1c1f4c;
@@ -36,16 +33,12 @@ ul.a {
       h1{
           color: #1c1f4c;
           font-family: sans-serif;
+          align-content: center;
       }
       .inner {
         width: 800px;
         border: 10px solid black;
       }
-      .Backline {
-        height: 20px;
-        width: 100px;
-        background: #fec20f; 
-   }
       .aboutPic {
         width: 400px !important;
         border: 10px solid black;
@@ -54,16 +47,23 @@ ul.a {
         display:block;
         margin:0 auto;
         width:150px;
+        text-align:left;
+        margin-left: 2;
       }
       .text {
         width: 1000px;
+      }
+      h2{
+          font-size: large;
+          color: #1c1f4c;
+          font-family: sans-serif;
       }
       p{
         color: #00848c;
         font-family: Bahnschrift Light;
         font-size: medium;
         margin:0 auto;
-        width: 600px;
+        width: 1000px;
         align-content: left;
       }
       form{

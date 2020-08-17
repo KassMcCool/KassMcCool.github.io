@@ -1,35 +1,16 @@
 <!DOCTYPE html>
-<html>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        * {
-          box-sizing: border-box;
-        }
-        
-        /* Create two equal columns that floats next to each other */
-        .column {
-          float: left;
-          width: 50%;
-          padding: 30px;
-        }
-        
-        /* Clear floats after the columns */
-        .row:after {
-          content: "";
-          display: table;
-          clear: both;
-        }
-        </style>
-    <head>
-        <title>This is my web development Journey</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="finalstyle.css" />
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="About.css" />
     </head>
     <body>
+      <div class="container-fluid">       
         <ul><li><a href=finalhome.html class="menu ul">Final Landing</a></li>
             <li><a href=AboutMe.html>About me</a></li>
             <li><a href=team.html>The Team</a></li>
@@ -38,28 +19,39 @@
             <li><a href=tobuy.html>Classes and IDs</a></li>
             <li><a href=JSFunctions.html>JavaScript Examples</a></li>
         </ul>
-        <center><h1>
-            <b class="blue-text"> Born and raised Idaho girl</b><br>
-        </h1></center>
-        <h2></h2>
-
-        <div class="row">
-          <div class="column" class="column1" background-color=#fccf17>
-            <h2>That's me, Kassie!</h2>
-            <p>Snowboarding on Bogus Basin</p><br>
-            <img src="Snowboarding.JPG" alt="picture of Kassie snowboarding" class="aboutPic">
-          </div>
-          <div class="column" class="column2" background-color=#fec20f>
-            <h2>Column 2</h2>
-            <p>Some text..</p>
+        </div>
+      </div>
+    </div>
+        <div class="container">       
+          <div class="row">
+            <div class="col-sm-6">
+              <h1 style="text-align: center;">That's me, Kassie! <br>Snowboarding on Bogus Basin.</h1>
+           <img src="Snowboarding.JPG" alt="picture of Kassie snowboarding" class="aboutPic">
+        </div>
+            <div class="col-md-6">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <h2>I'm a born and raised Idaho girl, I've never lived anywhere else. Sounds boring, but it wasn't. I've lived in seven different towns/cities within Idaho during that time, so I had a diverse Idaho upbringing!<br>I'm now a mom of two energetic boys who will also enjoy all Idaho has to offer throughout their childhood. I couldn't imagine anything better.<br>My day job, I briefly covered on my landing page I am an Application Development Analyst. I develop front end mini-app solutions for business process automation. I really enjoy my job and get super excited when I get to build things I've never built before. <br>Away from work I spend my time on School and my family. If I get any time for myself, I like to read fiction, snowboard, ski, dance, sing, and knit. </h2>  
+            </div>
           </div>
         </div>
-    </body>
+            
+        </body>
     <br>
     <br>
     <br>
     <br>
     <footer>
-        Developed July-August 2020, mid-pandemic by Kassie McCool
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+        <p>Developed July-August 2020, mid-pandemic by Kassie McCool</p>
+      </div>
+    </div>
+  </div>
     </footer>
 </html>
