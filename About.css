@@ -5,9 +5,10 @@ body {
     left:0;
     background-color:#f8f7f0;
 }
-ul {
+ul.a {
     list-style-type: none;
     width: 1200px;
+    background-color: #037272;
     margin: 0 auto;
     padding: 20;
     overflow: hidden;
